@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel="stylesheet" href="styles1.css">
+        <title> My Webiste</title>
+    </head>
+        <body>
+            <h1>My Website</h1>
+                <p class="p1">
+                    Created on 2024 June<br>
+                    Lithuania<br>
+                    <i>The first webpage</i><br>
+                    <a href="mailto:linaszilinskasas@gmail.com" class="email-link">Contact by email</a>
+                </p>
+                    <a href="#C4">Chapter 2</a>
+                    <a href="contacts.html" target="_blank">See contacts.</a>
+                <br>
+                <br>
+                <a href="https://google.com" title="search anything here" target="_blank" class="cat-link">
+                <img src="cat.png" alt="cat" style="width:200px;height:200px;" id="cat" ></a>
+            <br>
+                <img src="dedust2.jpg" alt="desert" style="width:200px;height:200px;" id="image2" >
+
+            <a href = "https://knowyourmeme.com/memes/howard-the-alien-money-longer-alien" target="_blank" class="img3-link" title="alien explained">
+            <img src="howard-the-alien.gif" alt="howard the alien" style="width:200px;height:200px;" id="image3">
+                </a>
+            <br>
+                <a href="https://edition.cnn.com/" title ="News" target="_blank"> Read some news</a>
+            <br>
+                <a href="https://bloons.fandom.com/wiki/Gravelord_Lych/Strategies" title="btd6 boss" target="_blank">btd6 boss</a>
+            <hr>
+                <button onclick="openInNewTab('https://autoplius.lt/')">Buy some cars</button>
+                <script>
+                function openInNewTab(url)
+                {
+                    var win=window.open(url, '_blank');
+                    win.focus();
+                }
+              </script>
+              <hr>
+                <h2 id="C2">Chapter 2</h2>
+                <p class = "special-paragraph">Visit the link below to get help</p>
+
+                    <a href = "https://www.w3schools.com/html/html_images.asp" title="get help" target="_blank" class="help"><img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+                    </a>
+                    <img src="image-asset.jpeg" alt="this is sparta"  id="sparta" class="mountain">
+                    <p><img src="mountain.avif" alt="mountain" class="img4"></p>
+                    <br><br><br>
+                    <p class="maptext">Go anywhere:</p>
+                    <img src="map.bmp" alt="world" usemap="#worldmap" style="width:600px;height:400px">
+                    <map name="worldmap">
+                        <area shape="rect" coords="35,35, 250, 180" href="North-america.htm" onclick="function1()">
+                        <area shape="rect" coords="130,181, 240, 340" href="South-america.htm"onclick="function2()">
+                        <area shape="rect" coords="131,35, 600, 400" href="Rest of the world.htm"onclick="function3()">
+                    </map>
+                    <script>
+                        function function1()
+                        {
+                            event.preventDefault();
+                            alert("You clicked North America")
+                        }
+                        function function2()
+                        {
+                            event.preventDefault();
+                            alert("You clicked South America")
+                        }
+                        function function3()
+                        {
+                            event.preventDefault();
+                            alert("You clicked either Europe, Africa or Asia or Australia")
+                        }
+
+                    </script>
+                    <br><br><br>
+                    <p class="space">
+                        This paragraph has some background effect to it :o</p>
+
+        </body>
+</html>

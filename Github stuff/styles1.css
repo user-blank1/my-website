@@ -1,0 +1,135 @@
+body
+{
+    background-color:rgb(0,0,170);
+    color:white;
+    font-family:Arial;
+
+
+}
+.space
+{
+    text-align: center;
+    background-size: cover;
+    background-image: url('space.webp');
+    height:100px; width:450px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-430px;
+}
+.maptext
+{
+    margin-left:0px;
+    padding:0px;
+}
+.img4
+{
+    margin-top:-170px;
+    float:right;
+    width: 200px;
+    height:180px;
+
+}
+a.email-link
+{
+    color:white;
+    background-color: initial;
+    padding: 0px;
+}
+.special-paragraph
+{
+    border: none;
+    margin-left:-10px
+}
+.help
+{
+    display: inline-block;
+    padding: 0;
+    background-color: initial;
+    color: initial;
+}
+.cat-link
+{
+    display: inline-block;
+    padding: 0;
+    background-color: initial;
+    color: initial;
+}
+.img3-link
+{
+
+    padding: 0;
+    background-color: initial;
+    color: initial;
+    float:right;
+
+}
+#image3 {
+    display:block;
+    margin-top:-200px; /* Adjust to move the image up */
+    margin-left:auto;
+
+}
+.side-paragraph
+{
+    border: none;
+    text-align: center;
+}
+
+#sparta
+{
+    display:block;
+    width: 200px;
+    height: 130px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -150px;
+
+}
+#image2
+{
+    display:block;
+    margin-top:-200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a
+{
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:link
+{
+    color:white;
+}
+a:visited
+{
+    color:white;
+}
+a:hover
+{
+    color:rgb(100,255,100);
+    background-color: black;
+}
+a:active
+{
+    color:yellow;
+}
+.p1
+{
+    margin-left:30px;
+    font-size:120%;
+    border: 2px solid white;
+    padding: 10px;
+    margin-right:1500px;
+}
+
+
+h1
+{
+    text-align:center;
+}
